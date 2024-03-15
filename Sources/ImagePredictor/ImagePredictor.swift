@@ -29,6 +29,10 @@ public final class ImagePredictor {
         /// The image classifier's confidence as a float.
         let confidence: Float
     }
+    
+    public init() {
+        
+    }
         
     /// Generates an image classification prediction for a photo.
     /// - Parameter photo: An image, typically of an object or a scene.
