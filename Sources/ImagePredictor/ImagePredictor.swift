@@ -25,9 +25,9 @@ public final class ImagePredictor {
     /// - Tag: Prediction
     public struct Prediction {
         /// The name of the object or scene the image classifier recognizes in an image.
-        let classification: String
+        public let classification: String
         /// The image classifier's confidence as a float.
-        let confidence: Float
+        public let confidence: Float
     }
     
     public init() {
